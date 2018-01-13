@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movimiento : MonoBehaviour {
+public class MovimientoP2 : MonoBehaviour {
 
     public float speed;
 
@@ -15,8 +15,8 @@ public class Movimiento : MonoBehaviour {
 
     void FixedUpdate()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
+        float moveHorizontal = Input.GetAxis("Horizontal P2");
+        float moveVertical = Input.GetAxis("Vertical P2");
 
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 
